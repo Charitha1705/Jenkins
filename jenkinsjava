@@ -7,7 +7,7 @@ tools {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'master', url:'https://github.com/lakshmihg047/Devops-lab/'
+        git branch: 'master', url:'https://github.com/Charitha1705/Jenkins/'
       }
     }
 stage('Compile') {
